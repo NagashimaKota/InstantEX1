@@ -31,7 +31,7 @@ public class PlayerMove : MonoBehaviour
         ClearText.gameObject.SetActive(false);
         OverText.gameObject.SetActive(false);
 
-        child = transform.FindChild("Arrow").gameObject;
+        child = transform.Find("Arrow").gameObject;
     }
     
     void Update()

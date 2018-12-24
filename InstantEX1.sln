@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantEX1", "InstantEX1.csproj", "{0C361716-5C4C-E466-359B-618099F70C32}"
 EndProject
 Global

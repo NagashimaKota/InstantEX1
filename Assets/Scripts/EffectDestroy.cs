@@ -9,7 +9,7 @@ public class EffectDestroy : MonoBehaviour {
 
  	void Start () {
         audio = GetComponent<AudioSource>();
-	}
+    }
     void Update () {
         
     }
@@ -19,7 +19,8 @@ public class EffectDestroy : MonoBehaviour {
         
         if (col.tag == "Player")
         {
-            audio.PlayOneShot(audio.clip); 
+            audio.PlayOneShot(audio.clip);
+            audio.Play();
             Destroy(this.gameObject);
             
         }
